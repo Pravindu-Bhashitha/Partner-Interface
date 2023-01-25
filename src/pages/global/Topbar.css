@@ -1,5 +1,5 @@
 .topbar{
-    background-color: rgba(243,243, 243);
+    background-color: #FFFFFF;
 }
 .topright{
     color: grey;
@@ -10,17 +10,17 @@
 .toprightbutton{
     border-color: transparent;
     border-style: solid;
-    background-color: rgba(243,243, 243);
+    background-color: #FFFFFF;
     cursor: pointer;
 }
 .inputbase{
     color: black;
     border-color: transparent;
-    background-color: rgb(243, 243, 243);
+    background-color: #FFFFFF;
     
 }
 .inputbase:focus{
-    outline-color: rgba(243,243, 243);
+    outline-color: #FFFFFF;
 }
 .thirdbox{
     display:flex;

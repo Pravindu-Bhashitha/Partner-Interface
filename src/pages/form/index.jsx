@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Button, TextField } from "@mui/material";
-import { Formik } from "formik";
+//import { Formik } from "formik";
 import * as yup from "yup";
 import { useMediaQuery } from "@mui/material";
-import Header from "../../components/Header";
+//import Header from "../../components/Header";
 import "./index.css";
 
-const Form = () => {
+const SMTP = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const phoneRegExp =
     /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
@@ -202,4 +202,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default SMTP;

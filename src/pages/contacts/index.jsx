@@ -4,7 +4,6 @@ import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
 import { mockDataContacts } from "../../data/mockData";
 
-import Header from "../../components/Header";
 
 const Contacts = () => {
   const theme = useTheme();
@@ -35,7 +34,8 @@ const Contacts = () => {
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="CONTACTS" subtitle="welcome to you Contacts" />
+        {/* <Header title="CONTACTS" subtitle="welcome to you Contacts" /> */}
+        <h1>CONTACTS</h1>
       </Box>
       <Box
         m="8px 0 0 0"
