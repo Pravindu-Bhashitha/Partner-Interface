@@ -50,7 +50,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}
@@ -100,7 +100,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}
@@ -150,7 +150,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}
@@ -202,7 +202,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}
@@ -252,7 +252,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}
@@ -302,7 +302,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="Middle">
-                <div>
+                <div className="withphoto">
                   <img
                     className="IMG"
                     src={logo}

@@ -9,6 +9,7 @@
     color: rgb(54, 54, 54);
     background-color: whitesmoke;
     border-radius: 3px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .second{
     border: solid;
@@ -18,6 +19,7 @@
     color: rgb(54, 54, 54);
     background-color: whitesmoke;
     border-radius: 3px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .third{
@@ -27,11 +29,13 @@
     color: rgb(54, 54, 54);
     background-color: whitesmoke;
     border-radius: 3px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .head{
     color: black;
     margin-left: 5%;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .content1{
     border: solid;
@@ -41,6 +45,7 @@
     width: 90%;
     margin-bottom: 8px;
     margin-left: 5%;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .content2{
     border: solid;
@@ -50,6 +55,7 @@
     width: 90%;
     margin-bottom: 8px;
     margin-left: 5%;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .content3{
     border: solid;
@@ -59,6 +65,7 @@
     width: 90%;
     margin-bottom: 8px;
     margin-left: 5%;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .button{
     cursor: pointer;
@@ -68,6 +75,7 @@
     color: rgb(54, 54, 54);
     margin-left: 55%;
     vertical-align: middle;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .toggle {
   --width: 80px;
@@ -81,6 +89,7 @@
   background-color:rgb(215, 211, 211) ;
   margin-left: 35%;
   vertical-align: middle;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .toggle input {

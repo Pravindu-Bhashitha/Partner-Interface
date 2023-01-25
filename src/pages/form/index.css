@@ -1,5 +1,6 @@
 .header1 {
   color: black;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .background {
   background-color: #ffffff;
@@ -9,6 +10,7 @@
   display: flex;
   padding-top: 10px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .button1 {
   color: white;
@@ -45,6 +47,8 @@
   padding-top: 1.25px;
   width: 97%;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
 }
 .Note1 {
   margin-bottom: -35px;
@@ -60,29 +64,34 @@
   margin-bottom: 5px;
 }
 .ServerType {
-  margin-right: 325px;
+  margin-right: 25%;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .ServerTypein {
   width: 600px;
   height: 35px;
   border-radius: 2px;
-  border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
 }
 .ServerTypein:focus {
   outline-color: #1ab394;
 }
 .SMTPServer {
-  margin-right: 318px;
+  margin-right: 25%;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .SSMTPServerin {
   width: 600px;
   height: 35px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
 }
 .SSMTPServerin:focus{
   outline-color: #1ab394;
@@ -90,13 +99,16 @@
 .SMTPServerPort {
   margin-right: 294px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .SSMTPServerPortin {
   width: 600px;
   height: 35px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 5px;
 }
 .SSMTPServerPortin:focus{
@@ -105,6 +117,9 @@
 .SenderEmailAddress {
   margin-right: 261px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .SenderEmailAddressin {
   width: 600px;
@@ -113,7 +128,7 @@
   border: solid;
   border-color: transparent;
   margin-top: 5px;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
 }
 .SenderEmailAddressin:focus{
   outline-color: #1ab394;
@@ -121,38 +136,47 @@
 .RecipientEmailAddress {
   margin-right: 249px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .RecipientEmailAddressin {
   width: 600px;
   height: 35px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 5px;
 }
 .RecipientEmailAddressin:focus{
   outline-color: #1ab394;
 }
+.Fill5{
+  display: flex;
+}
 .Fill6 {
-  display: flexbox;
   display: flex;
 }
 .TestEmailBody {
   margin-right: 300px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .TestEmailBodyin {
   width: 600px;
   height: 200px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 5px;
 }
 .TestEmailBodyin:focus{
   outline-color: #1ab394;
 }
 .Fill7 {
+  display: flex;
   margin-top: 7px;
 }
 .toggle {
@@ -229,18 +253,24 @@
 .EnableCDOSettings {
   margin-right: -155px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .UserName {
   margin-right: 325px;
   padding-right: 5px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .UserNamein {
   width: 600px;
   height: 35px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 5px;
 }
 .UserNamein:focus {
@@ -250,13 +280,16 @@
   margin-right: 332px;
   padding-right: 8px;
   margin-left: 1.5%;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #676a6c;
+  font-weight: 700;
 }
 .Passwordin {
   width: 600px;
   height: 35px;
   border-radius: 2px;
   border: solid;
-  border-color: rgb(223, 223, 223);
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 5px;
 }
 .Passwordin:focus {
@@ -267,6 +300,7 @@
   margin-top: 5px;
   padding-left: 430px;
   padding-bottom: 10px;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .button3 {
   color: white;
