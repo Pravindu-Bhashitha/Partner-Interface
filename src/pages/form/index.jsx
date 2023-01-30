@@ -1,37 +1,36 @@
 import React from "react";
-import { Box, Button, TextField } from "@mui/material";
-//import { Formik } from "formik";
-import * as yup from "yup";
-import { useMediaQuery } from "@mui/material";
-//import Header from "../../components/Header";
+//import { Box, Button, TextField } from "@mui/material";
+import { Box } from "@mui/material";
+// import * as yup from "yup";
+// import { useMediaQuery } from "@mui/material";
 import "./index.css";
 
 const SMTP = () => {
-  const isNonMobile = useMediaQuery("(min-width:600px)");
-  const phoneRegExp =
-    /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
-  const handleFormSubmit = (values) => {
-    console.log(values);
-  };
-  const initialValues = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    contact: "",
-    address1: "",
-    address2: "",
-  };
-  const checkoutSchema = yup.object().shape({
-    firstName: yup.string().required("Required"),
-    lastName: yup.string().required("Required"),
-    email: yup.string().email("Invalid email!").required("Required"),
-    contact: yup
-      .string()
-      .matches(phoneRegExp, "phone number is not valid!")
-      .required("Required"),
-    address1: yup.string().required("Required"),
-    address2: yup.string().required("Required"),
-  });
+  // const isNonMobile = useMediaQuery("(min-width:600px)");
+  // const phoneRegExp =
+  //   /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
+  // const handleFormSubmit = (values) => {
+  //   console.log(values);
+  // };
+  // const initialValues = {
+  //   firstName: "",
+  //   lastName: "",
+  //   email: "",
+  //   contact: "",
+  //   address1: "",
+  //   address2: "",
+  // };
+  // const checkoutSchema = yup.object().shape({
+  //   firstName: yup.string().required("Required"),
+  //   lastName: yup.string().required("Required"),
+  //   email: yup.string().email("Invalid email!").required("Required"),
+  //   contact: yup
+  //     .string()
+  //     .matches(phoneRegExp, "phone number is not valid!")
+  //     .required("Required"),
+  //   address1: yup.string().required("Required"),
+  //   address2: yup.string().required("Required"),
+  // });
 
   return (
     <Box m="20px">

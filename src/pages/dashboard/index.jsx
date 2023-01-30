@@ -1,31 +1,31 @@
 import {
   Box,
-  Button,
-  IconButton,
-  Typography,
+  // Button,
+  // IconButton,
+  // Typography,
   useTheme,
-  useMediaQuery,
+  // useMediaQuery,
 } from "@mui/material";
-import Grid from "@mui/material/Unstable_Grid2";
-import { tokens } from "../../theme";
-import { mockTransactions } from "../../data/mockData";
-import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
-import Header from "../../components/Header";
-import LineChart from "../../components/LineChart";
-import GeographyChart from "../../components/GeographyChart";
-import BarChart from "../../components/BarChart";
-import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
+// import Grid from "@mui/material/Unstable_Grid2";
+// import { tokens } from "../../theme";
+// import { mockTransactions } from "../../data/mockData";
+// import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
+// import EmailIcon from "@mui/icons-material/Email";
+// import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+// import PersonAddIcon from "@mui/icons-material/PersonAdd";
+// import TrafficIcon from "@mui/icons-material/Traffic";
+// import Header from "../../components/Header";
+// import LineChart from "../../components/LineChart";
+// import GeographyChart from "../../components/GeographyChart";
+// import BarChart from "../../components/BarChart";
+// import StatBox from "../../components/StatBox";
+// import ProgressCircle from "../../components/ProgressCircle";
 import "./index.css";
 import logo from "../../Images/logo192.png";
 const Dashboard = () => {
   const theme = useTheme();
-  const smScreen = useMediaQuery(theme.breakpoints.up("sm"));
-  const colors = tokens(theme.palette.mode);
+  // const smScreen = useMediaQuery(theme.breakpoints.up("sm"));
+  // const colors = tokens(theme.palette.mode);
   return (
     <Box m="20px">
       {/* HEADER */}

@@ -27,7 +27,7 @@
 }
 .Box{
   border-radius: 3px;
-  border:  solid grey;
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 20px;
   margin-bottom: 20px;
   width: 33%;
@@ -37,7 +37,7 @@
 .Box1{
   border-radius: 3px;
   border: solid;
-  border-color: grey;
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 20px;
   margin-bottom: 20px;
   margin: 5px auto;
@@ -48,7 +48,7 @@
 .Box3{
   border-radius: 3px;
   border: solid;
-  border-color: grey;
+  border: 1px solid rgb(223, 223, 223);
   margin-top: 20px;
   margin-bottom: 20px;
   width: 33%;
