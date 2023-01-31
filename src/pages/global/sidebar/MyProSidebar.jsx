@@ -4,7 +4,6 @@ import { Menu, Sidebar, MenuItem } from "react-pro-sidebar";
 import { useProSidebar } from "react-pro-sidebar";
 import './MyProSidebar.css';
 import { useSidebarContext } from "./sidebarContext";
-
 import { Link } from "react-router-dom";
 import { tokens } from "../../../theme";
 import { useTheme, Box, Typography, IconButton } from "@mui/material";
