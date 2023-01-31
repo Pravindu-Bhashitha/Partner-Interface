@@ -1,44 +1,45 @@
 import React from "react";
-import { Box, Typography, useTheme } from "@mui/material";
-import { DataGrid } from "@mui/x-data-grid";
+// import { Box, Typography, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
+// import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
-import { mockDataInvoices } from "../../data/mockData";
-
-import Header from "../../components/Header";
+// import { mockDataInvoices } from "../../data/mockData";
+import "./index.css";
+// import Header from "../../components/Header";
 
 const Invoices = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
-  const columns = [
-    { field: "id", headerName: "Id" },
-    {
-      field: "name",
-      headerName: "Name",
-      width: 200,
-      cellClassName: "name-column--cell",
-    },
-    { field: "email", headerName: "Email", width: 200 },
-    { field: "phone", headerName: "Phone Number", width: 100 },
+  // const columns = [
+  //   { field: "id", headerName: "Id" },
+  //   {
+  //     field: "name",
+  //     headerName: "Name",
+  //     width: 200,
+  //     cellClassName: "name-column--cell",
+  //   },
+  //   { field: "email", headerName: "Email", width: 200 },
+  //   { field: "phone", headerName: "Phone Number", width: 100 },
 
-    {
-      field: "cost",
-      headerName: "Cost",
-      width: 100,
-      renderCell: ({ row: { cost } }) => {
-        return <Typography color={colors.greenAccent[500]}>${cost}</Typography>;
-      },
-    },
-    { field: "date", headerName: "Date", width: 100 },
-  ];
+  //   {
+  //     field: "cost",
+  //     headerName: "Cost",
+  //     width: 100,
+  //     renderCell: ({ row: { cost } }) => {
+  //       return <Typography color={colors.greenAccent[500]}>${cost}</Typography>;
+  //     },
+  //   },
+  //   { field: "date", headerName: "Date", width: 100 },
+  // ];
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="INVOICES" subtitle="welcome to you Invoices" />
+      <h1 className="header1">DASHBOARD</h1>
       </Box>
       <Box
         m="8px 0 0 0"
-        height="80vh"
+        height="74vh"
         sx={{
           "& .MuiDataGrid-root": {
             border: "none",
@@ -68,7 +69,8 @@ const Invoices = () => {
           },
         }}
       >
-        <DataGrid checkboxSelection rows={mockDataInvoices} columns={columns} />
+        {/* <DataGrid checkboxSelection rows={mockDataInvoices} columns={columns} /> */}
+
       </Box>
     </Box>
   );
