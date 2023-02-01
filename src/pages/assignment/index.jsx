@@ -1,70 +1,15 @@
 import React from "react";
-// import { Box, Typography, useTheme } from "@mui/material";
 import { Box, useTheme } from "@mui/material";
-// import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
-//import { mockDataTeam } from "../../data/mockData";
-// import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
-// import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
-// import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
-//import Header from "../../components/Header";
 import "./index.css";
 import { WiTime9 } from "react-icons/wi";
-const Dashboardnew = () => {
+const Assignment = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  // const columns = [
-  //   { field: "id", headerName: "Id" },
-  //   {
-  //     field: "name",
-  //     headerName: "Name",
-  //     width: 200,
-  //     cellClassName: "name-column--cell",
-  //   },
-  //   {
-  //     field: "age",
-  //     headerName: "Age",
-  //     type: "number",
-  //     headerAlign: "left",
-  //     align: "left",
-  //   },
-  //   { field: "phone", headerName: "Phone Number", width: 100 },
-  //   { field: "email", headerName: "Email", width: 200 },
-  //   {
-  //     field: "access",
-  //     headerName: "Access Llvel",
-  //     width: 100,
-  //     renderCell: ({ row: { access } }) => {
-  //       return (
-  //         <Box
-  //           width="100%"
-  //           m="0 auto"
-  //           p="5px"
-  //           display="flex"
-  //           justifyContent="center"
-  //           backgroundColor={
-  //             access === "admin"
-  //               ? colors.greenAccent[600]
-  //               : colors.greenAccent[800]
-  //           }
-  //           borderRadius="4px"
-  //         >
-  //           {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
-  //           {access === "manager" && <SecurityOutlinedIcon />}
-  //           {access === "user" && <LockOpenOutlinedIcon />}
-  //           <Typography color={colors.grey[100]} sx={{ ml: "5px" }}>
-  //             {access}
-  //           </Typography>
-  //         </Box>
-  //       );
-  //     },
-  //   },
-  // ];
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        {/* <Header title="Client Details"/> */}
-        <h1 className="header1">CLIENT DETAILS</h1>
+        <h1 className="header1">ASSIGNMENTS</h1>
       </Box>
       <Box
         m="8px 0 0 0"
@@ -212,10 +157,9 @@ const Dashboardnew = () => {
             </div>
           </div>
         </div>
-        {/* <DataGrid rows={mockDataTeam} columns={columns} /> */}
       </Box>
     </Box>
   );
 };
 
-export default Dashboardnew;
+export default Assignment;

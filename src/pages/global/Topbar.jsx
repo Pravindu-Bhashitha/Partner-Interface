@@ -1,21 +1,11 @@
 import React from "react";
-//import { useContext } from "react";
-//import { ColorModeContext, tokens } from "../../theme";
-//import {tokens} from "../../theme";
-//import { useTheme, Box, IconButton, InputBase, Button } from "@mui/material";
-//import { useTheme,Box,IconButton } from "@mui/material";
-import {Box,IconButton} from "@mui/material";
+import { Box, IconButton } from "@mui/material";
 import { LogoutRounded } from "@mui/icons-material";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import { useProSidebar } from "react-pro-sidebar";
-import './Topbar.css';
-// import { blue, green, red } from "@mui/material/colors";
+import "./Topbar.css";
 const Topbar = () => {
-  //const theme = useTheme();
-  //const colors = tokens(theme.palette.mode);
-  //const colorMode = useContext(ColorModeContext);
   const { toggleSidebar, broken, rtl } = useProSidebar();
-
   return (
     <Box display="flex" justifyContent="space-between" p={2} className="topbar">
       <Box display="flex">
@@ -27,27 +17,17 @@ const Topbar = () => {
             <MenuOutlinedIcon />
           </IconButton>
         )}
-        {/* <Box className="thirdbox"
-          // display="flex"
-          // backgroundColor={red}
-          // p={0.2}
-          // borderRadius={1}
-          // height={40}
-          // color={green}
-        >
-          <InputBase sx={{ ml: 1, flex: 1,paddingTop:-10}} placeholder="Search for something..." className="searchinput" />
-          <IconButton type="button">
-          </IconButton>
-        </Box> */}
-        <input className="inputbase" placeholder="Seacrh for something..."></input>
+        <input
+          className="inputbase"
+          placeholder="Seacrh for something..."
+        ></input>
       </Box>
       <button className="toprightbutton">
-      <Box display="flex" className="topright" >
-          <LogoutRounded className="logout"/>
+        <Box display="flex" className="topright">
+          <LogoutRounded className="logout" />
           Log out
-      </Box>
+        </Box>
       </button>
-      
     </Box>
   );
 };

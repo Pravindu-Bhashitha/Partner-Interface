@@ -1,8 +1,7 @@
-// docs https://github.com/azouaoui-med/react-pro-sidebar
 import { useState } from "react";
 import { Menu, Sidebar, MenuItem } from "react-pro-sidebar";
 import { useProSidebar } from "react-pro-sidebar";
-import './MyProSidebar.css';
+import "./MyProSidebar.css";
 import { useSidebarContext } from "./sidebarContext";
 import { Link } from "react-router-dom";
 import { tokens } from "../../../theme";
@@ -51,7 +50,6 @@ const MyProSidebar = () => {
           backgroundColor: "transparent !important",
         },
         "& .menu-item": {
-          // padding: "5px 35px 5px 20px !important",
           backgroundColor: "transparent !important",
         },
         "& .menu-anchor": {
@@ -101,10 +99,10 @@ const MyProSidebar = () => {
                 alignItems="center"
                 ml="5px"
               >
-                <b className="exampleuser">Example User <br/><b className="menu">menu</b></b>
-                {/* <Typography className="sidebarup">
-                  <b className="exampleuser">Example User <br/><b className="menu">menu</b></b>
-                </Typography> */}
+                <b className="exampleuser">
+                  Example User <br />
+                  {/* <b className="menu">menu</b> */}
+                </b>
                 <IconButton
                   onClick={
                     broken ? () => toggleSidebar() : () => collapseSidebar()
@@ -133,35 +131,36 @@ const MyProSidebar = () => {
             <Item
               title="Partner Dashboard"
               to="/"
-              icon={<BsFillGridFill/>}
+              icon={<BsFillGridFill />}
               selected={selected}
               setSelected={setSelected}
             />
-            <Item className="item"
+            <Item
+              className="item"
               title="Client Details"
-              to="/team"
-              icon={<BsFillGridFill/>}
+              to="/client_details"
+              icon={<BsFillGridFill />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Project"
-              to="/contacts"
-              icon={<BsFillGridFill/>}
+              to="/project"
+              icon={<BsFillGridFill />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Assignment"
-              to="/invoices"
-              icon={<BsFillGridFill/>}
+              to="/assignment"
+              icon={<BsFillGridFill />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="SMTP"
-              to="/form"
-              icon={<BsFillGridFill/>}
+              to="/smtp"
+              icon={<BsFillGridFill />}
               selected={selected}
               setSelected={setSelected}
             />

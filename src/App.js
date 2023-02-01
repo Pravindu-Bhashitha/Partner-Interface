@@ -1,25 +1,16 @@
-//import { ColorModeContext, useMode } from "./theme";
 import { useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Routes, Route } from "react-router-dom";
 import { MyProSidebarProvider } from "./pages/global/sidebar/sidebarContext";
 import Topbar from "./pages/global/Topbar";
+import SMTP from "./pages/smtp";
+import Projects from "./pages/projects";
+import Assignment from "./pages/assignment";
+import Client_Details from "./pages/client_details";
 import Dashboard from "./pages/dashboard";
-import Team from "./pages/team";
-import Invoices from "./pages/invoices";
-import Contacts from "./pages/contacts";
-import Form from "./pages/form";
-// import Calendar from "./pages/calendar";
-// import Bar from "./pages/bar";
-//import Line from "./pages/line";
-//import Pie from "./pages/pie";
-// import FAQ from "./pages/faq";
-// import Geography from "./pages/geography";
-
 const App = () => {
   const [theme, colorMode] = useMode();
   return (
-    // <ColorModeContext.Provider value={colorMode}>
     <div className="whole">
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -29,23 +20,16 @@ const App = () => {
               <Topbar />
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                <Route path="/team" element={<Team />} />
-                <Route path="/contacts" element={<Contacts />} />
-                <Route path="/invoices" element={<Invoices />} />
-                <Route path="/form" element={<Form />} />
-                {/* <Route path="/bar" element={<Bar />} /> */}
-                {/* <Route path="/pie" element={<Pie />} />
-                <Route path="/line" element={<Line />} /> */}
-                {/* <Route path="/faq" element={<FAQ />} />
-                <Route path="/calendar" element={<Calendar />} />
-                <Route path="/geography" element={<Geography />} /> */}
+                <Route path="/client_details" element={<Client_Details />} />
+                <Route path="/project" element={<Projects />} />
+                <Route path="/assignment" element={<Assignment />} />
+                <Route path="/smtp" element={<SMTP />} />
               </Routes>
             </main>
           </div>
         </MyProSidebarProvider>
       </ThemeProvider>
     </div>
-    // </ColorModeContext.Provider>
   );
 };
 
